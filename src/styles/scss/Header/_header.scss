@@ -1,0 +1,63 @@
+
+.lf-header-logo{
+    grid-area: lf-header-logo;
+    height: 9rem;
+    justify-self: center;
+}
+
+.lf-header-phone{
+    grid-area: lf-header-phone;
+    justify-self: center;
+    display: inline;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: bold;
+    a{
+        text-decoration-line: unset;
+        color: $standard;
+    }
+
+    @include mobileL{
+        display: none;
+    }
+    @include mobile{
+        display: none;
+    }
+}
+.lf-header-phone:hover{
+    font-weight: bolder;
+}
+
+.lf-header-socialMedia{
+    grid-area: lf-header-socialMedia;
+    justify-self: center;
+    display: inline;
+    
+    @include mobileL{
+        display: none;
+    }
+    @include mobile{
+        display: none;
+    }
+}
+
+.lf-header-alignVertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'lf-header-logo lf-header-phone lf-header-socialMedia';
+    // 'menu main main main right right'
+    // 'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: rgb(250, 250, 250);
+    padding: 0 5%;
+    border: .5px solid;
+}
+
+
+

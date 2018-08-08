@@ -1,0 +1,93 @@
+html {
+  font-family: "Handlee", cursive;
+}
+
+.lf-header-logo {
+  grid-area: lf-header-logo;
+  height: 9rem;
+  justify-self: center;
+}
+
+.lf-header-phone {
+  grid-area: lf-header-phone;
+  justify-self: center;
+  display: inline;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.lf-header-phone a {
+  text-decoration-line: unset;
+  color: #000;
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .lf-header-phone {
+    display: none;
+  }
+}
+@media (max-width: 424px) {
+  .lf-header-phone {
+    display: none;
+  }
+}
+
+.lf-header-phone:hover {
+  font-weight: bolder;
+}
+
+.lf-header-socialMedia {
+  grid-area: lf-header-socialMedia;
+  justify-self: center;
+  display: inline;
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .lf-header-socialMedia {
+    display: none;
+  }
+}
+@media (max-width: 424px) {
+  .lf-header-socialMedia {
+    display: none;
+  }
+}
+
+.lf-header-alignVertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "lf-header-logo lf-header-phone lf-header-socialMedia";
+  grid-gap: 10px;
+  background-color: #fafafa;
+  padding: 0 5%;
+  border: 0.5px solid;
+}
+
+.lf-navigation-container {
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.lf-navigation-container ul li {
+  list-style-type: none;
+}
+.lf-navigation-container ul a {
+  text-decoration-line: unset;
+  color: #000;
+}
+
+li:hover {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.lf-page-router-container {
+  display: grid;
+  grid-template-columns: 22% auto;
+}
+
+/*# sourceMappingURL=index.css.map */

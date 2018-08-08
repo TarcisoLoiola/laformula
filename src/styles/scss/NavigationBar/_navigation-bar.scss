@@ -1,0 +1,23 @@
+.lf-navigation-container{
+    ul{
+        
+        li{
+            list-style-type: none;
+            
+        }
+        a{
+            text-decoration-line: unset;
+            color:$standard;
+        }
+    }
+    display: block;
+    
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+li:hover{
+    font-size: 24px;
+    font-weight: bolder;
+}
