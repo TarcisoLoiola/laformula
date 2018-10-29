@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "link": "/menu/cakes",
+        "value":"Cakes"
+    },
+
+    {
+        "id": 2,
+        "link": "/menu/cupcakes",
+        "value":"Cupcakes"
+    },
+
+    {
+        "id": 3,
+        "link": "/menu/minis",
+        "value":"Mini Cakes"
+    },
+
+    {
+        "id": 4,
+        "link": "/menu/postres",
+        "value":"Postres"
+    },
+
+    {
+        "id": 5,
+        "link": "/menu/drinks",
+        "value":"Drinks"
+    },
+
+    {
+        "id": 6,
+        "link": "/menu/others",
+        "value":"Others"
+    }
+]

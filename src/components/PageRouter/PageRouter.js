@@ -6,6 +6,7 @@ import ContactUs from '../Pages/ContactUs/ContactUs';
 import Blog from '../Pages/Blog/Blog';
 import Header from '../Header/Header';
 import Menu from '../Pages/Menu/Menu';
+import MenuAdmin from '../Pages/Menu/MenuAdmin';
 import Home from '../Pages/Home/Home';
 import Admin from '../Pages/Admin/Admin';
 import Cakes from '../Pages/Cakes/Cakes';
@@ -35,6 +36,7 @@ class PageRouter extends Component{
                             <Route path = '/menu/postres' component = { Postres }/>
                             <Route path = '/menu/drinks' component = { Drinks }/>
                             <Route path = '/menu/others' component = { Others }/>
+                        <Route path = '/menu-admin' component = { MenuAdmin } />
                         <Route path = '/blog' component = { Blog } />
                         <Route path = '/our-culture' component = { OurCulture} />
                             <Route path = '/our-culture/contactus' component = { ContactUs } />
